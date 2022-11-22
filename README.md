@@ -1,6 +1,8 @@
 node-pg-format
 ==============
 
+This is a minor fix to the archived repo which contians a little bug when the global absolute path is rewritten.
+
 Node.js implementation of [PostgreSQL format()](http://www.postgresql.org/docs/9.3/static/functions-string.html#FUNCTIONS-STRING-FORMAT) to safely create dynamic SQL queries. SQL identifiers and literals are escaped to help prevent SQL injection. The behavior is equivalent to [PostgreSQL format()](http://www.postgresql.org/docs/9.3/static/functions-string.html#FUNCTIONS-STRING-FORMAT). This module also supports Node buffers, arrays, and objects which is explained [below](#arrobject).
 
 ## Install
